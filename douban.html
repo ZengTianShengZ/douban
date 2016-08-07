@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>zssdouban</title>
+
+    <style type="text/css">
+
+        body{
+            margin:0;
+            padding:0;
+        }
+        a{
+            color: #3377AA;
+        }
+        a:hover{
+            background: #3377AA;
+            color: #FFFFFF;
+        }
+        .head_nav{
+            width:950px;
+            height:90px;
+            border:1px solid red;
+            margin:0 auto;
+            position: relative;
+        }
+        .head_nav a{
+            width: 155px;
+            height: 34px;
+            display: block;
+            /*line-height: 90px;  这个属性是只对 内联元素使用的吗 */
+            /*margin-top: 30px;*/
+            position: absolute;
+            left:0;
+            top:30px;
+            background-image: url("img/logo.png") ;
+        }
+        .head_nav .head_search{
+
+            width: 272px;
+            height:32px;
+            border:1px solid #c3c3c3;
+            position: absolute;
+            left:185px;
+            top:30px;
+        }
+        .head_nav .head_search input{
+            width: 240px;
+            border: none;
+            font-size: 13px;
+            height: 20px;
+            padding: 5px;
+        }
+        .head_nav .head_search .search_logo{
+            width: 20px;
+            height:20px;
+            position: absolute;
+            left:247px;
+            top:-10px;
+            background-image: url("img/search_logo.png") ;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+
+    <div  class = "head_nav">
+        <a href="#"></a>
+        <form class="head_search">
+
+            <input type="text" name="search" placeholder="书籍、电影、小站、音乐、小组、成员"/>
+
+            <p class="search_logo"></p>
+
+        </form>
+    </div>
+
+
+
+</body>
+</html>
