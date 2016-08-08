@@ -3,117 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>zssdouban</title>
-
-    <style type="text/css">
-
-        body ,ul,li,a{
-            margin:0;
-            padding:0;
-        }
-        a{
-            color: #3377AA;
-        }
-        a:hover{
-            background: #3377AA;
-            color: #FFFFFF;
-        }
-        ul{
-            list-style: none;
-
-        }
-        .head_nav{
-            width:950px;
-            height:90px;
-
-            margin:0 auto;
-            position: relative;
-        }
-        .head_nav .head_logo{
-            width: 155px;
-            height: 34px;
-            display: block;
-            /*line-height: 90px;  这个属性是只对 内联元素使用的吗 */
-            /*margin-top: 30px;*/
-            position: absolute;
-            left:0;
-            top:30px;
-            background-image: url("img/logo.png") ;
-        }
-        .head_nav .head_search{
-
-            width: 272px;
-            height:32px;
-            border:1px solid #c3c3c3;
-            position: absolute;
-            left:185px;
-            top:30px;
-        }
-        .head_nav .head_search input{
-            width: 240px;
-            border: none;
-            font-size: 13px;
-            height: 20px;
-            padding: 5px;
-        }
-        .head_nav .head_search .search_logo{
-            width: 20px;
-            height:20px;
-            position: absolute;
-            left:247px;
-            top:-10px;
-            background-image: url("img/search_logo.png") ;
-        }
-        .head_nav .head_banner{
-            width: 460px;
-            height:21px;
-
-            position: absolute;
-            right: 2px;
-            top:35px;
-
-        }
-        .head_nav ul li{
-            float: left;
-            margin-right: 17px;
-        }
-        .head_nav ul li a{
-            width: 40px;
-            height: 22px;
-            display: block;
-
-        }
-        .head_shu{
-            /*     图片    位置 background-position：<position> [ , <position> ]   background-repeat */
-            /* background-position 用长度值指定背景图像填充的位置。可以为负值。*/
-            background: url("img/head_banner.png") 0px 0px no-repeat;
-
-        }
-        .head_nav ul li  a.head_move{
-
-            background: url("img/head_banner.png") -62px 0px no-repeat;
-        }
-        .head_nav ul li  a.head_music{
-            background: url("img/head_banner.png") -120px 0px no-repeat;
-        }
-        .head_nav ul li  a.head_team{
-            background: url("img/head_banner.png") -182px 0px no-repeat;
-        }
-        .head_nav ul li  a.head_tongcheng{
-            background: url("img/head_banner.png") -240px 0px no-repeat;
-        }
-        .head_nav ul li  a.head_fm{
-            background: url("img/head_banner.png") -301px 0px no-repeat;
-        }
-        .head_nav ul li  a.head_dx{
-            background: url("img/head_banner.png") -360px 0px no-repeat;
-        }
-        .head_nav ul li  a.head_shiji{
-            background: url("img/head_banner.png") -423px 0px no-repeat;
-        }
-
-
-
-    </style>
+    <link href="douban_style.css"  rel="stylesheet" type="text/css">
 
 </head>
 <body>
@@ -139,10 +29,113 @@
         </ul>
     </div>
 
-    <div>
-        <p class="test_p">
+    <div class="wrapper">
 
-        </p>
+
+        <div class="wrapper_content">
+
+            <img class="img">
+            <p class="text_1"> 豆瓣 4.0</p>
+            <p class="text_2">我 们 的 精 神 角 落</p>
+            <a class="download_app" href=""> 下载豆瓣 App</a>
+            <img class="reweima_png" src="img/reweima.png">
+            <form>
+                <input class="email" type="email" name="email" placeholder="邮箱/手机号"/>
+                <input class="pas" type="password" name="pas" placeholder="密码"/>
+                <input class="submit" type="submit" name="submit" value="登陆豆瓣" />
+            </form>
+            <a class="singin" href=""> 注册账号</a>
+
+            <label  class="remember_me"  >
+                <input type="checkbox"   > 记住我
+            </label>
+
+            <ul class="wei">
+                <li> <a href="" class="weibo"></a></li>
+                <li> <a href="" class="weixin"></a></li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div class="hot_content">
+
+        <div class="hot_content_context">
+
+            <div class="contect_left">
+                <h2>热点内容  · · · · · ·  <span>( <a href="">更多</a>  ) </span></h2>
+                <ul>
+                    <li>
+                        <a href=""> <img src="img/context_img.png"></a>
+                        <p>
+                            <a href="">DAY BY DAY </a>  <span>1594张照片</span>
+                        </p>
+
+                    </li>
+                    <li>
+                        <a href=""> <img src="img/context_img.png"></a>
+                        <p>
+                            <a href="">DAY BY DAY </a>  <span>1594张照片</span>
+                        </p>
+
+                    </li>
+                    <li>
+                        <a href=""> <img src="img/context_img.png"></a>
+                        <p>
+                            <a href="">DAY BY DAY </a>  <span>1594张照片</span>
+                        </p>
+
+                    </li>
+                    <li>
+                        <a href=""> <img src="img/context_img.png"></a>
+                        <p>
+                            <a href="">DAY BY DAY </a>  <span>1594张照片</span>
+                        </p>
+
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="contect_center">
+
+                <ul>
+                    <li>
+                        <a href="">16位巴西作家讲述16种巴西</a>
+                        <b>澎湃新闻的日记</b>
+                        <P>《文化课》 巴西里约奥运即将于本周末开幕，不管外界如何嘲讽巴西人糟糕的奥运准备...</P>
+                    </li>
+                    <li><a href="">曾经年少时，夏天还活着</a></li>
+                    <li><a href="">曾经年少时，夏天还活着</a></li>
+                    <li><a href="">曾经年少时，曾经年少时，夏天还活着夏天还活着</a></li>
+                    <li><a href="">曾经年少时，曾经年少时，夏天还活着夏天还活着</a></li>
+                    <li><a href="">曾经年少时曾经年少时，夏天少时，曾经年 x</a></li>
+                    <li><a href="">曾经年少时，夏天还活着</a></li>
+
+                </ul>
+            </div>
+            <div class="contect_right">
+                <ul>
+                    <li>
+                        <a href=""><img src="img/yike_app.png"></a>
+                        
+                    </li>
+                    <li> <h2>线上活动  · · · · · ·  <span>( <a href="">更多</a>  ) </span></h2></li>
+                    <li class="activity">
+                        <a href="">宅的装甲：晒出你最爱的T恤</a>
+                        <p> 时间：6月29日 - 9月1日   </p>
+                        <p>241人参加  </p>
+                    </li>
+                    <li class="activity">
+                        <a href="">宅的装甲：晒出你最爱的T恤</a>
+                        <p> 时间：6月29日 - 9月1日   </p>
+                        <p>241人参加  </p>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
     </div>
 
 
