@@ -378,16 +378,16 @@
             color: #FFF;
 
         }
-        .move .move_content .content_center .monve_start{
+       /* .move .move_content .content_center*/ .monve_start{
             text-align: center;
             line-height: 20px;
         }
-        .move .move_content .content_center .monve_start img{
+        /*.move .move_content .content_center*/ .monve_start img{
             width: 55px;
             height: 11px;
             background: url("img/start_img.png") 0 0 no-repeat;
         }
-        .move .move_content .content_center .monve_start span{
+       /* .move .move_content .content_center */.monve_start span{
              font-size: 10px;
              color: #ffae38;
          }
@@ -510,6 +510,7 @@
             color: #FFF;
         }
 
+
         /****************小组区结束****************/
 
         /**************** reading 读书区 ****************/
@@ -596,8 +597,140 @@
         }
 
 
-        /**************** eading 读书区 结束 ****************/
+        /**************** reading 读书区 结束 ****************/
 
+
+        /**************** Music ****************/
+
+        #music{
+            height: 639px;
+            background: #FFF;
+            border: 1px solid red;
+        }
+        #music a{
+            color: #555d53;
+        }
+        #music a:hover{
+            color: #FFF;
+
+        }
+
+
+        #music .music_content{
+            width: 950px;
+            margin:43px auto;
+
+
+        }
+        #music .music_content .music_center{
+            width: 540px;
+
+            float: left;
+        }
+        #music .music_content .music_center ul li{
+            width: 124px;
+
+            float: left;
+            margin-right: 8px;
+            margin-bottom: 49px;
+        }
+        #music .music_content .music_center ul li .img_a{
+            display: block;
+            width: 80px;
+            height: 80px;
+            margin: 0 auto;
+
+        }
+        #music .music_content .music_center ul li p{
+            text-align: center;
+        }
+        #music .music_content .music_center ul li p a{
+            line-height: 25px;
+        }
+        #music .music_content .music_center ul li .m_p{
+            text-align: center;
+            margin-top: 19px;
+        }
+
+        #music .music_content .music_reght{
+            width: 222px;
+
+            float: left;
+        }
+        #music .music_content .music_reght ul{
+            list-style-type:decimal;
+            border: 1px solid #FFF;
+            margin-left: 30px;
+        }
+        #music .music_content .music_reght ul li{
+            height: 73px;
+            width: 190px;
+            border: 1px solid #FFF;
+        }
+        #music .music_content .music_reght ul li .img_div{
+            float: left;
+            width: 48px;
+            height: 48px;
+        }
+        #music .music_content .music_reght ul li .text_div{
+            float: left;
+            margin-left: 20px;
+        }
+        /**************** Music  结束 ****************/
+
+        /****************同城 ****************/
+
+        #city{
+            height: 387px;
+            background: #f7f7f7;
+            clear: both;
+            position: relative;
+
+        }
+        #city a{
+            color: #664433;
+        }
+        #city a:hover{
+            color: #FFF;
+        }
+        #city .city_content{
+            width: 950px;
+
+            border: 1px solid red;
+            position: absolute;
+            margin: 37px 200px 0;
+        }
+
+        #city .city_content .city_center{
+            width: 600px;
+            border: 1px solid red;
+            float: left;
+
+        }
+        #city .city_content .city_center ul li{
+            float: left;
+            margin-right: 33px;
+            margin-bottom: 45px;
+            width: 260px;
+            border: 1px solid red;
+        }
+        #city .city_content .city_center .img_div{
+            float: left;
+            margin-right: 10px;
+        }
+        #city .city_content .city_center .text_div{
+            float: left;
+        }
+        #city .city_content .city_center .text_div a{
+            font-size: 10pt;
+            line-height: 20pt;
+        }
+        #city .city_content .city_center .text_div p{
+            font-size: 10pt;
+            color: #666666;
+        }
+
+        /**************** 同城  结束 ****************/
 
 
         /****************公用部分******************/
@@ -614,6 +747,7 @@
                                 }
         /*.move .move_content */.content_left ul li{
                                     padding: 5px;
+
                                 }
         .content_left .app_img{
             width: 50px;
