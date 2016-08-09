@@ -15,7 +15,7 @@
             list-style: none;
 
         }
-        input{
+        input,img{
             border: none;
             outline-style : none;
         }
@@ -242,7 +242,7 @@
         /* ********************这是 登陆部分************************ */
 
         .hot_content{
-            height: 529px;
+            height: 492px;
 
         }
         .hot_content .hot_content_context{
@@ -254,7 +254,7 @@
         .hot_content .hot_content_context .contect_left{
             height: 420px;
             width: 360px;
-       
+
             float: left;
         }
         .hot_content .hot_content_context .contect_left h2{
@@ -272,6 +272,9 @@
             float: left;
             margin-right: 11px;
         }
+        .hot_content .hot_content_context .contect_left ul li a:hover{
+            background: #FFF;
+        }
 
         .hot_content .hot_content_context .contect_left ul li p span{
 
@@ -288,15 +291,19 @@
 
         }
         .hot_content .hot_content_context .contect_center ul li{
-            line-height: 33px;
+            padding: 10px;
         }
         .hot_content .hot_content_context .contect_center ul li a{
             font-size: 12px;
+            line-height: 15px;
         }
         .hot_content .hot_content_context .contect_center  ul li b{
             font-size: 12px;
             color: #999;
+
+            font-weight :normal;
             display: block;
+            line-height: 22px;
         }
         .hot_content .hot_content_context .contect_center  ul li p{
             font-size: 14px;
@@ -312,15 +319,18 @@
             float: left;
             margin-left: 35px;
         }
+        .hot_content .hot_content_context .contect_right .contect_right_img:hover{
+            background: #FFF;
+        }
         .hot_content .hot_content_context .contect_right ul li{
             line-height: 33px;
         }
-        .hot_content .hot_content_context .contect_right ul li h2{
+ /*       .hot_content .hot_content_context .contect_right ul li h2{
             font: 15px Arial, Helvetica, sans-serif;
             color: #072;
             margin: 0 0 12px 0;
             line-height: 150%;
-        }
+        }*/
         .hot_content .hot_content_context .contect_right ul li.activity a{
             font-size: 12px;
         }
@@ -330,12 +340,300 @@
         }
 
 
+        .move{
+            height: 700px ;
+            background: #F7F7F7;
+            padding: 40px;
+        }
+
+        .move .move_content{
+            width: 907px;
+            height: 542px;
+            margin: 0 auto;
+
+        }
+
+        .move .move_content .content_center{
+
+            width: 514px;
+            height: 542px;
+            float: left;
+        }
+        .move .move_content .content_center ul li{
+            width: 100px;
+            float: left;
+            margin-left: 13px;
+            margin-right: 13px;
+            margin-bottom: 40px;
+        }
+        .move .move_content .content_center ul li .monve_title{
+            text-align: center;
+            line-height: 20px;
+        }
+        .move .move_content .content_center ul li .monve_title a{
+            color: #333;
+            font-size: 13px;
+        }
+        .move .move_content .content_center ul li .monve_title a:hover{
+            color: #FFF;
+
+        }
+        .move .move_content .content_center .monve_start{
+            text-align: center;
+            line-height: 20px;
+        }
+        .move .move_content .content_center .monve_start img{
+            width: 55px;
+            height: 11px;
+            background: url("img/start_img.png") 0 0 no-repeat;
+        }
+        .move .move_content .content_center .monve_start span{
+             font-size: 10px;
+             color: #ffae38;
+         }
+        .move .move_content .content_center .piao{
+            display: block;
+            width: 62px;
+            height: 24px;
+            background: #1c8bd0;
+            text-align: center;
+            color: #FFF;
+            line-height: 24px;
+            border-radius: 2px;
+            margin: 0 auto;
+        }
+        .move .move_content .content_center .piao:hover{
+            background: #076dd0;
+        }
+
+        .move .contect_right{
+            width: 235px;
+            float: left;
+
+            margin-left: 25px;
+        }
+        .move .contect_right a{
+            font-size: 12px;
+        }
+        .move .contect_right .row li{
+            float: left;
+            margin-bottom: 5px;
+        }
+        .move .contect_right .row li ul li{
+            float: left;
+            margin-right: 20px;
+
+        }
+        .move .contect_right .hot_ul{
+            clear: both;
+            list-style-type:decimal;
+            margin-left: 25px;
 
 
 
+        }
+        .move .contect_right .hot_ul li{
+            height: 31px;
+            line-height: 31px;
+            border-bottom: 1px dotted   #999;
+        }
+
+
+        .move .move_hangfu{
+            width: 950px;
+            height: 90px;
+            margin:52px auto;
+            display: block;
+        }
+
+        /****************小组区-****************/
+
+        .group{
+            height: 645px;
+            background: #FFF;
+        }
+        .group .group_content{
+            width: 950px;
+            height: 646px;
+            margin: 37px auto;
+
+        }
+
+        .group .group_content .group_centent{
+            width: 520px;
+
+            float: left;
+        }
+        .group .group_content .group_centent ul li{
+            width: 240px;
+            height: 50px;
+
+            float: left;
+            margin-bottom: 41px;
+        }
+        .group .group_content .group_centent ul li .img_div{
+            float: left;
+            margin-right: 20px;
+        }
+        .group .group_content .group_centent ul li .text_div{
+            float: left;
+
+        }
+        .group .group_content .group_centent ul li .text_div p{
+            margin-top: 10px;
+
+        }
+
+        .group .group_content .group_right{
+            width: 249px;
+            float: left;
+        }
+        .group .group_content .group_right ul li{
+            float: left;
+            margin-right: 14px;
+
+        }
+        .group .group_content .group_right ul li a{
+            font-size: 12px;
+        }
+        .group .group_content .group_right ul li .cate_lable{
+            width: 249px;
+            margin-bottom: 5px;
+
+        }
+        .group .group_content .group_right ul li .cate_lable a{
+            font-size: 14px;
+            color: #333;
+        }
+        .group .group_content .group_right ul li .cate_lable a:hover{
+
+            color: #FFF;
+        }
+
+        /****************小组区结束****************/
+
+        /**************** reading 读书区 ****************/
+
+        .reading{
+            height: 660px;
+            background: #f7f7f7;
+            border: 1px solid #f7f7f7;
+        }
+        .reading .reading_content{
+            width: 950px;
+            margin: 38px auto;
+            border: 1px solid #f7f7f7;
+        }
+        .reading .reading_content a{
+            color:  #614e3c;
+        }
+        .reading .reading_content a:hover{
+            color:  #FFF;
+        }
+        .reading .reading_content .reading_center{
+            width: 560px;
+
+            float: left;
+        }
+        .reading .reading_content .reading_center ul{
+            margin-left: 15px;
+        }
+        .reading .reading_content .reading_center ul li{
+            width: 100px;
+            float: left;
+
+            margin-right: 33px;
+        }
+        .reading .reading_content .reading_center ul li p {
+            text-align: center;
+            margin-top: 8px;
+        }
+        .reading .reading_content .reading_center ul li .book_img{
+            display: block;
+            width: 102px;
+            height: 149px;
+        }
+        .reading .reading_content .reading_center ul li .book_img:hover{
+            background: #f7f7f7;
+        }
+        .reading .reading_content .reading_center ul li .mian_red{
+            display: block;
+            width: 68px;
+            height: 22px;
+            background: #999a95;
+            border-radius: 2px;
+            text-align: center;
+            line-height: 22px;
+            margin: 20px auto;
+            color: #FFF;
+        }
+        .reading .reading_content .reading_center ul li .mian_red:hover{
+            background: #7b7c77;
+        }
+
+        .reading .reading_content .redding_right{
+            float: left;
+            width: 255px;
+
+        }
+        .reading .reading_content .redding_right ul{
+            width: 264px;
+            height: 55px;
+            border-bottom: 1px solid #999999;
+            margin-top: 15px;
+        }
+
+        .reading .reading_content .redding_right ul li{
+            float: left;
+            margin-right: 10px;
+            line-height: 20px;
+        }.reading .reading_content .redding_right ul li a{
+                     font-size: 12px;
+                 }
+        .reading .reading_content .redding_right ul li .redding_title{
+
+            color: #999999;
+        }
+
+
+        /**************** eading 读书区 结束 ****************/
 
 
 
+        /****************公用部分******************/
+
+        /* .move .move_content*/ .content_left{
+                                     width: 123px;
+                                     height: 542px;
+                                     float: left;
+                                 }
+
+        /*.move .move_content*/ .content_left h2 a{
+                                    font-size: 24px;
+                                    padding:6px;
+                                }
+        /*.move .move_content */.content_left ul li{
+                                    padding: 5px;
+                                }
+        .content_left .app_img{
+            width: 50px;
+            height: 50px;
+            display: block;
+            border-radius: 4px;
+            box-shadow:1px 0px rgba(97, 95, 38, 0.16);
+            background: url("img/app_logo.jpg") 0 0 no-repeat;
+            margin-bottom: 3px;
+        }
+
+
+        .title_h2{
+            font: 15px Arial, Helvetica, sans-serif;
+            color: #072;
+            margin: 0 0 12px 0;
+            line-height: 150%;
+            clear: both;
+
+        }
 
 
 
