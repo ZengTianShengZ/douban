@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>zssdouban</title>
+    <link href="public_style.css"  rel="stylesheet" type="text/css">
     <link href="douban_style.css"  rel="stylesheet" type="text/css">
 
 </head>
 <body>
 
     <!-------------------------------头部---------------------------------------->
-    <div  class = "head_nav">
+    <div  id="head_nav">
         <a href="#" class="head_logo"></a>
         <form class="head_search">
 
@@ -32,12 +33,12 @@
     <!-------------------------------头部结束---------------------------------------->
 
     <!-------------------------------登陆区---------------------------------------->
-    <div class="wrapper">
+    <div id="wrapper">
 
 
         <div class="wrapper_content">
 
-            <img class="img">
+            <img class="wrapper_img" src="img/wrapper_app.png">
             <p class="text_1"> 豆瓣 4.0</p>
             <p class="text_2">我 们 的 精 神 角 落</p>
             <a class="download_app" href=""> 下载豆瓣 App</a>
@@ -67,7 +68,7 @@
 
     <!-------------------------------热点内容--------------------------------------->
 
-    <div class="hot_content">
+    <div id="hot_content">
 
         <div class="hot_content_context">
 
@@ -75,28 +76,28 @@
                 <h2>热点内容  · · · · · ·  <span>( <a href="">更多</a>  ) </span></h2>
                 <ul>
                     <li>
-                        <a href=""> <img src="img/context_img.png"></a>
+                        <a href=""> <img src="img/hot_content_1.jpg"></a>
                         <p>
                             <a href="">DAY BY DAY </a>  <span>1594张照片</span>
                         </p>
 
                     </li>
                     <li>
-                        <a href=""> <img src="img/context_img.png"></a>
+                        <a href=""> <img src="img/hot_content_2.jpg"></a>
                         <p>
                             <a href="">DAY BY DAY </a>  <span>1594张照片</span>
                         </p>
 
                     </li>
                     <li>
-                        <a href=""> <img src="img/context_img.png"></a>
+                        <a href=""> <img src="img/hot_content_3.jpg"></a>
                         <p>
                             <a href="">DAY BY DAY </a>  <span>1594张照片</span>
                         </p>
 
                     </li>
                     <li>
-                        <a href=""> <img src="img/context_img.png"></a>
+                        <a href=""> <img src="img/hot_content_4.jpg"></a>
                         <p>
                             <a href="">DAY BY DAY </a>  <span>1594张照片</span>
                         </p>
@@ -153,7 +154,7 @@
 
     <!------------------------------- 电影区--------------------------------------->
 
-    <div class="move">
+    <div id="movie">
 
         <div class="move_content">
             <div class="content_left"  >
@@ -173,58 +174,72 @@
                 <h2 class="title_h2">正在热映 ······ <a href=""> ( 更多 )</a></h2>
                 <ul>
                     <li>
-                        <a href=""> <img src="img/move_img.jpg"></a>
+                        <a href=""> <img src="img/img_movie_1.jpg" class="img_li"></a>
                         <p class="monve_title"><a href="" > 盗墓笔记</a></p>
                         <p class="monve_start"><img  class="start_img"> <span  >5.3</span></p>
                         <a href="" class="piao">选座购票</a>
 
                     </li>
-                </ul>
-                <ul>
+
                     <li>
-                        <a href=""> <img src="img/move_img.jpg"></a>
+                        <a href=""> <img src="img/img_movie_2.jpg" class="img_li"></a>
                         <p class="monve_title"><a href="" > 盗墓笔记</a></p>
                         <p class="monve_start"><img  class="start_img"> <span  >5.3</span></p>
                         <a href="" class="piao">选座购票</a>
 
                     </li>
-                </ul>
-                <ul>
+
                     <li>
-                        <a href=""> <img src="img/move_img.jpg"></a>
+                        <a href=""> <img src="img/img_movie_3.jpg" class="img_li"></a>
                         <p class="monve_title"><a href="" > 盗墓笔记</a></p>
                         <p class="monve_start"><img  class="start_img"> <span  >5.3</span></p>
                         <a href="" class="piao">选座购票</a>
 
                     </li>
-                </ul>
-                <ul>
+
                     <li>
-                        <a href=""> <img src="img/move_img.jpg"></a>
+                        <a href=""> <img src="img/img_movie_4.jpg" class="img_li"></a>
                         <p class="monve_title"><a href="" > 盗墓笔记</a></p>
                         <p class="monve_start"><img  class="start_img"> <span  >5.3</span></p>
                         <a href="" class="piao">选座购票</a>
 
                     </li>
-                </ul>
-                <ul>
+
                     <li>
-                        <a href=""> <img src="img/move_img.jpg"></a>
+                        <a href=""> <img src="img/img_movie_5.jpg" class="img_li"></a>
                         <p class="monve_title"><a href="" > 盗墓笔记</a></p>
                         <p class="monve_start"><img  class="start_img"> <span  >5.3</span></p>
                         <a href="" class="piao">选座购票</a>
 
                     </li>
-                </ul>
-                <ul>
+
                     <li>
-                        <a href=""> <img src="img/move_img.jpg"></a>
+                        <a href=""> <img src="img/img_movie_6.jpg" class="img_li"></a>
                         <p class="monve_title"><a href="" > 盗墓笔记</a></p>
                         <p class="monve_start"><img  class="start_img"> <span  >5.3</span></p>
                         <a href="" class="piao">选座购票</a>
 
                     </li>
+
+                    <li>
+                        <a href=""> <img src="img/img_movie_7.jpg" class="img_li"></a>
+                        <p class="monve_title"><a href="" > 盗墓笔记</a></p>
+                        <p class="monve_start"><img  class="start_img"> <span  >5.3</span></p>
+                        <a href="" class="piao">选座购票</a>
+
+                    </li>
+
+                    <li>
+                        <a href=""> <img src="img/img_movie_8.jpg" class="img_li"></a>
+                        <p class="monve_title"><a href="" > 盗墓笔记</a></p>
+                        <p class="monve_start"><img  class="start_img"> <span  >5.3</span></p>
+                        <a href="" class="piao">选座购票</a>
+
+                    </li>
+
+
                 </ul>
+
 
             </div>
             <div class="contect_right">
@@ -293,7 +308,7 @@
 
                 <h2 class="title_h2">近期热门 ······ <a href=""> ( 更多 )</a></h2>
                 <ul class="hot_ul">
-                    <li><a href="">小姐</a> </li>
+                    <li class="cccccccccc"><a href="">小姐</a> </li>
                     <li><a href="">完美陌生人</a> </li>
                     <li><a href="">一个叫欧维的男人决定去死</a> </li>
                     <li><a href="">三人行</a> </li>
@@ -318,7 +333,7 @@
 
     <!-------------------------------小组-区------------------------------------->
 
-    <div class="group">
+    <div id="group">
 
         <div class="group_content">
 
@@ -341,7 +356,7 @@
                 <ul>
                     <li>
                         <div class="img_div">
-                            <a href=""> <img src="img/group_img.jpg"> </a>
+                            <a href=""> <img src="img/img_hot_group_1.jpg"> </a>
                         </div>
                         <div class="text_div">
                             <a href="">海贼王</a>
@@ -351,7 +366,7 @@
 
                     <li>
                         <div class="img_div">
-                            <a href=""> <img src="img/group_img.jpg"> </a>
+                            <a href=""> <img src="img/img_hot_group_2.jpg"> </a>
                         </div>
                         <div class="text_div">
                             <a href="">海贼王</a>
@@ -361,7 +376,7 @@
 
                     <li>
                         <div class="img_div">
-                            <a href=""> <img src="img/group_img.jpg"> </a>
+                            <a href=""> <img src="img/img_hot_group_3.jpg"> </a>
                         </div>
                         <div class="text_div">
                             <a href="">海贼王</a>
@@ -371,7 +386,7 @@
 
                     <li>
                         <div class="img_div">
-                            <a href=""> <img src="img/group_img.jpg"> </a>
+                            <a href=""> <img src="img/img_hot_group_4.jpg"> </a>
                         </div>
                         <div class="text_div">
                             <a href="">海贼王</a>
@@ -380,7 +395,7 @@
                     </li>
                     <li>
                         <div class="img_div">
-                            <a href=""> <img src="img/group_img.jpg"> </a>
+                            <a href=""> <img src="img/img_hot_group_5.jpg"> </a>
                         </div>
                         <div class="text_div">
                             <a href="">海贼王</a>
@@ -389,17 +404,7 @@
                     </li>
                     <li>
                         <div class="img_div">
-                            <a href=""> <img src="img/group_img.jpg"> </a>
-                        </div>
-                        <div class="text_div">
-                            <a href="">海贼王</a>
-                            <p>122175 个成员</p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="img_div">
-                            <a href=""> <img src="img/group_img.jpg"> </a>
+                            <a href=""> <img src="img/img_hot_group_6.jpg"> </a>
                         </div>
                         <div class="text_div">
                             <a href="">海贼王</a>
@@ -409,7 +414,7 @@
 
                     <li>
                         <div class="img_div">
-                            <a href=""> <img src="img/group_img.jpg"> </a>
+                            <a href=""> <img src="img/img_hot_group_7.jpg"> </a>
                         </div>
                         <div class="text_div">
                             <a href="">海贼王</a>
@@ -419,7 +424,7 @@
 
                     <li>
                         <div class="img_div">
-                            <a href=""> <img src="img/group_img.jpg"> </a>
+                            <a href=""> <img src="img/img_hot_group_8.jpg"> </a>
                         </div>
                         <div class="text_div">
                             <a href="">海贼王</a>
@@ -429,7 +434,7 @@
 
                     <li>
                         <div class="img_div">
-                            <a href=""> <img src="img/group_img.jpg"> </a>
+                            <a href=""> <img src="img/img_hot_group_9.jpg"> </a>
                         </div>
                         <div class="text_div">
                             <a href="">海贼王</a>
@@ -439,7 +444,17 @@
 
                     <li>
                         <div class="img_div">
-                            <a href=""> <img src="img/group_img.jpg"> </a>
+                            <a href=""> <img src="img/img_hot_group_10.jpg"> </a>
+                        </div>
+                        <div class="text_div">
+                            <a href="">海贼王</a>
+                            <p>122175 个成员</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="img_div">
+                            <a href=""> <img src="img/img_hot_group_11.jpg"> </a>
                         </div>
                         <div class="text_div">
                             <a href="">海贼王</a>
@@ -725,7 +740,7 @@
 
     <!-------------------------------reading 读书--------------------------------------->
 
-    <div class="reading">
+    <div id="reading">
         <div class="reading_content">
 
             <div class="content_left"  >
@@ -737,7 +752,7 @@
                     <li> <a href="">书评</a> </li>
                     <li>  <a href="">购书单</a> </li>
                     <li>
-                        <a href="" class="app_img"> </a>
+                        <a href="" class="app_img app_img0"> </a>
                         <a href="">豆瓣阅读</a>
                     </li>
                 </ul>
@@ -749,26 +764,26 @@
 
                     <ul>
                         <li>
-                            <a href="" class="book_img"><img src="img/reading_book.jpg"></a>
-                            <p class="ppp"><a href="">Harry P... </a></p>
+                            <a href="" class="book_img"><img src="img/img_readding_1.jpg"></a>
+                          <p class="ppp"><a href="">Harry P... </a></p>
                             <p>J.K. Ro...</p>
                             <a href="" class="mian_red"> 免费试读</a>
                         </li>
                         <li>
-                            <a href="" class="book_img"><img src="img/reading_book.jpg"></a>
-                            <p class="ppp"><a href="">Harry P... </a></p>
+                            <a href="" class="book_img"><img src="img/img_readding_2.jpg"></a>
+                          <p class="ppp"><a href="">Harry P... </a></p>
                             <p>J.K. Ro...</p>
                             <a href="" class="mian_red"> 免费试读</a>
                         </li>
                         <li>
-                            <a href="" class="book_img"><img src="img/reading_book.jpg"></a>
-                            <p class="ppp"><a href="">Harry P... </a></p>
+                            <a href="" class="book_img"><img src="img/img_readding_3.jpg"></a>
+                          <p class="ppp"><a href="">Harry P... </a></p>
                             <p>J.K. Ro...</p>
                             <a href="" class="mian_red"> 免费试读</a>
                         </li>
                         <li>
-                            <a href="" class="book_img"><img src="img/reading_book.jpg"></a>
-                            <p class="ppp"><a href="">Harry P... </a></p>
+                            <a href="" class="book_img"><img src="img/img_readding_4.jpg"></a>
+                          <p class="ppp"><a href="">Harry P... </a></p>
                             <p>J.K. Ro...</p>
                             <a href="" class="mian_red"> 免费试读</a>
                         </li>
@@ -780,22 +795,22 @@
 
                     <ul>
                         <li>
-                            <a href="" class="book_img"><img src="img/reading_book.jpg"></a>
-                            <p class="ppp"><a href="">Harry P... </a></p>
+                            <a href="" class="book_img"><img src="img/img_readding_4.jpg"></a>
+                          <p class="ppp"><a href="">Harry P... </a></p>
+                            <p>J.K. Ro...</p>
+                            <p>1.99元</p>
+                            <a href="" class="mian_red"> 免费试读</a>
+                      </li>
+                        <li>
+                            <a href="" class="book_img"><img src="img/img_readding_3.jpg"></a>
+                          <p class="ppp"><a href="">Harry P... </a></p>
                             <p>J.K. Ro...</p>
                             <p>1.99元</p>
                             <a href="" class="mian_red"> 免费试读</a>
                         </li>
                         <li>
-                            <a href="" class="book_img"><img src="img/reading_book.jpg"></a>
-                            <p class="ppp"><a href="">Harry P... </a></p>
-                            <p>J.K. Ro...</p>
-                            <p>1.99元</p>
-                            <a href="" class="mian_red"> 免费试读</a>
-                        </li>
-                        <li>
-                            <a href="" class="book_img"><img src="img/reading_book.jpg"></a>
-                            <p class="ppp"><a href="">Harry P... </a></p>
+                            <a href="" class="book_img"><img src="img/img_readding_2.jpg"></a>
+                          <p class="ppp"><a href="">Harry P... </a></p>
                             <p>J.K. Ro...</p>
                             <p>1.99元</p>
                             <a href="" class="mian_red"> 免费试读</a>
@@ -906,16 +921,26 @@
         <div class="music_content">
 
             <div class="content_left"  >
-                <h2> <a href=""> 读书</a></h2>
+                <h2> <a href=""> 音乐</a></h2>
                 <ul>
-                    <li><a href="">分类浏览</a></li>
-                    <li> <a href="">阅读</a> </li>
-                    <li> <a href="">作者</a> </li>
-                    <li> <a href="">书评</a> </li>
-                    <li>  <a href="">购书单</a> </li>
+                    <li><a href="">音乐人</a></li>
+                    <li> <a href="">金羊毛计划</a> </li>
+                    <li> <a href="">专题</a> </li>
+                    <li> <a href="">排行榜</a> </li>
+                    <li>  <a href="">分类浏览</a> </li>
+                    <li> <a href="">排行榜</a> </li>
+                    <li>  <a href="">分类浏览</a> </li>
+                    <li> <a href="">乐评</a> </li>
+                    <li>  <a href="">歌单</a> </li>
+                    <li> <a href="">豆瓣FM</a> </li>
+                    <li>  <a href="">阿比鹿2015</a> </li>
                     <li>
-                        <a href="" class="app_img"> </a>
-                        <a href="">豆瓣阅读</a>
+                        <a href="" class="app_img app_img1"> </a>
+                        <a href="">豆瓣FM</a>
+                    </li>
+                    <li>
+                        <a href="" class="app_img app_img2"> </a>
+                        <a href="">豆瓣音乐人</a>
                     </li>
                 </ul>
             </div>
@@ -924,57 +949,57 @@
                 <h2 class="title_h2">近期热门 ······ <a href=""> ( 更多 )</a></h2>
                 <ul>
                     <li>
-                        <a href="" class="img_a"> <img src="img/music_img.jpg"></a>
-                        <p>1.<a href="">自传</a></p>
+                        <a href="" class="img_a"> <img src="img/img_music_c1.jpg"></a>
+                      <p>1.<a href="">自传</a></p>
                         <p><a href="">五月天</a></p>
                         <p class="monve_start"><img  class="start_img"> <span  >5.3</span></p>
                     </li>
 
                     <li>
-                        <a href="" class="img_a"> <img src="img/music_img.jpg"></a>
-                        <p>1.<a href="">自传</a></p>
+                        <a href="" class="img_a"> <img src="img/img_music_c2.jpg"></a>
+                      <p>1.<a href="">自传</a></p>
                         <p><a href="">五月天</a></p>
                         <p class="monve_start"><img  class="start_img"> <span  >5.3</span></p>
                     </li>
 
                     <li>
-                        <a href="" class="img_a"> <img src="img/music_img.jpg"></a>
-                        <p>1.<a href="">自传</a></p>
+                        <a href="" class="img_a"> <img src="img/img_music_c3.jpg"></a>
+                      <p>1.<a href="">自传</a></p>
                         <p><a href="">五月天</a></p>
                         <p class="monve_start"><img  class="start_img"> <span  >5.3</span></p>
                     </li>
 
                     <li>
-                        <a href="" class="img_a"> <img src="img/music_img.jpg"></a>
-                        <p>1.<a href="">自传</a></p>
+                        <a href="" class="img_a"> <img src="img/img_music_c4.jpg"></a>
+                      <p>1.<a href="">自传</a></p>
                         <p><a href="">五月天</a></p>
                         <p class="monve_start"><img  class="start_img"> <span  >5.3</span></p>
                     </li>
 
                     <li>
-                        <a href="" class="img_a"> <img src="img/music_img.jpg"></a>
-                        <p>1.<a href="">自传</a></p>
+                        <a href="" class="img_a"> <img src="img/img_music_c4.jpg"></a>
+                      <p>1.<a href="">自传</a></p>
                         <p><a href="">五月天</a></p>
                         <p class="monve_start"><img  class="start_img"> <span  >5.3</span></p>
                     </li>
 
                     <li>
-                        <a href="" class="img_a"> <img src="img/music_img.jpg"></a>
-                        <p>1.<a href="">自传</a></p>
+                        <a href="" class="img_a"> <img src="img/img_music_c5.jpg"></a>
+                      <p>1.<a href="">自传</a></p>
                         <p><a href="">五月天</a></p>
                         <p class="monve_start"><img  class="start_img"> <span  >5.3</span></p>
                     </li>
 
                     <li>
-                        <a href="" class="img_a"> <img src="img/music_img.jpg"></a>
-                        <p>1.<a href="">自传</a></p>
+                        <a href="" class="img_a"> <img src="img/img_music_c5.jpg"></a>
+                      <p>1.<a href="">自传</a></p>
                         <p><a href="">五月天</a></p>
                         <p class="monve_start"><img  class="start_img"> <span  >5.3</span></p>
                     </li>
 
                     <li>
-                        <a href="" class="img_a"> <img src="img/music_img.jpg"></a>
-                        <p>1.<a href="">自传</a></p>
+                        <a href="" class="img_a"> <img src="img/img_music_c6.jpg"></a>
+                      <p>1.<a href="">自传</a></p>
                         <p><a href="">五月天</a></p>
                         <p class="monve_start"><img  class="start_img"> <span  >5.3</span></p>
                     </li>
@@ -1068,17 +1093,12 @@
 
 
             <div class="content_left"  >
-                <h2> <a href=""> 读书</a></h2>
+                <h2> <a href=""> 同城</a></h2>
                 <ul>
-                    <li><a href="">分类浏览</a></li>
-                    <li> <a href="">阅读</a> </li>
-                    <li> <a href="">作者</a> </li>
-                    <li> <a href="">书评</a> </li>
-                    <li>  <a href="">购书单</a> </li>
-                    <li>
-                        <a href="" class="app_img"> </a>
-                        <a href="">豆瓣阅读</a>
-                    </li>
+                    <li><a href="">近期活动</a></li>
+                    <li> <a href="">主办方</a> </li>
+                    <li> <a href="">舞台剧</a> </li>
+
                 </ul>
             </div>
 
@@ -1086,8 +1106,8 @@
                 <h2 class="title_h2">近期热门 ······ <a href=""> ( 更多 )</a></h2>
                 <ul>
                     <li>
-                        <div class="img_div">
-                            <a href=""> <img src="img/ciyt_c_img.jpg"> </a>
+                        <div class="img_div" >
+                            <a href="" class="img_div_a"> <img src="img/img_local_1.jpg"> </a>
                         </div>
                         <div class="text_div">
                             <a href=""> 听米 环境读剧：《彼岸花轮》</a>
@@ -1099,7 +1119,7 @@
 
                     <li>
                         <div class="img_div">
-                            <a href=""> <img src="img/ciyt_c_img.jpg"> </a>
+                            <a href="" class="img_div_a"> <img src="img/img_local_2.jpg"> </a>
                         </div>
                         <div class="text_div">
                             <a href=""> 听米 环境读剧：《彼岸花轮》</a>
@@ -1111,7 +1131,7 @@
 
                     <li>
                         <div class="img_div">
-                            <a href=""> <img src="img/ciyt_c_img.jpg"> </a>
+                            <a href="" class="img_div_a"> <img src="img/img_local_3.jpg"> </a>
                         </div>
                         <div class="text_div">
                             <a href=""> 听米 环境读剧：《彼岸花轮》</a>
@@ -1123,7 +1143,7 @@
 
                     <li>
                         <div class="img_div">
-                            <a href=""> <img src="img/ciyt_c_img.jpg"> </a>
+                            <a href="" class="img_div_a"> <img src="img/img_local_4.jpg"> </a>
                         </div>
                         <div class="text_div">
                             <a href=""> 听米 环境读剧：《彼岸花轮》</a>
@@ -1195,7 +1215,7 @@
     <div id="ad">
         <div class="ad_center">
             <div class="ad_hengfu">
-                 <a href=""> <img src="img/ad_d_hf.jpg"></a>
+                 <a href="" class="ad_hangfu"> <img src="img/ad_d_hf.jpg"></a>
             </div>
 
             <div class="ad_letf">
