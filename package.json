@@ -1,0 +1,22 @@
+{
+  "name": "douban",
+  "version": "1.1.0",
+  "description": "仿豆瓣首页",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZengTianShengZ/douban.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZengTianShengZ/douban/issues"
+  },
+  "homepage": "https://github.com/ZengTianShengZ/douban#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

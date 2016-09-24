@@ -16,7 +16,7 @@
             position: absolute;
             left:0;
             top:30px;
-            background-image: url("img/logo.png") ;
+            background-image: url("../img/logo.png") ;
         }
         #head_nav .head_search{
 
@@ -40,7 +40,7 @@
             position: absolute;
             left:247px;
             top:5px;
-            background-image: url("img/search_logo.png") ;
+            background-image: url("../img/search_logo.png") ;
         }
         #head_nav .head_banner{
             width: 460px;
@@ -61,35 +61,35 @@
 
         }
         .head_shu:hover{
-            background: url("img/head_banner.png") 0px 0px no-repeat;
+            background: url("../img/head_banner.png") 0px 0px no-repeat;
         }
         .head_shu{
             /*     图片    位置 background-position：<position> [ , <position> ]   background-repeat */
             /* background-position 用长度值指定背景图像填充的位置。可以为负值。*/
-            background: url("img/head_banner.png") 0px 0px no-repeat;
+            background: url("../img/head_banner.png") 0px 0px no-repeat;
 
         }
         #head_nav ul li  a.head_move{
 
-            background: url("img/head_banner.png") -62px 0px no-repeat;
+            background: url("../img/head_banner.png") -62px 0px no-repeat;
         }
         #head_nav ul li  a.head_music{
-            background: url("img/head_banner.png") -120px 0px no-repeat;
+            background: url("../img/head_banner.png") -120px 0px no-repeat;
         }
         #head_nav ul li  a.head_team{
-            background: url("img/head_banner.png") -182px 0px no-repeat;
+            background: url("../img/head_banner.png") -182px 0px no-repeat;
         }
         #head_nav ul li  a.head_tongcheng{
-            background: url("img/head_banner.png") -240px 0px no-repeat;
+            background: url("../img/head_banner.png") -240px 0px no-repeat;
         }
         #head_nav ul li  a.head_fm{
-            background: url("img/head_banner.png") -301px 0px no-repeat;
+            background: url("../img/head_banner.png") -301px 0px no-repeat;
         }
         #head_nav ul li  a.head_dx{
-            background: url("img/head_banner.png") -360px 0px no-repeat;
+            background: url("../img/head_banner.png") -360px 0px no-repeat;
         }
         #head_nav ul li  a.head_shiji{
-            background: url("img/head_banner.png") -423px 0px no-repeat;
+            background: url("../img/head_banner.png") -423px 0px no-repeat;
         }
         /* ********************这是 头部************************ */
 
@@ -97,7 +97,7 @@
         #wrapper{
             height:178px;
 
-            background: url("img/bgg.png");
+            background: url("../img/bgg.png");
         }
         #wrapper .wrapper_content{
             height:178px;
@@ -212,10 +212,10 @@
             right:0;
         }
         #wrapper .wrapper_content .wei .weibo{
-            background: url("img/weibo.png") -4px 0px no-repeat;
+            background: url("../img/weibo.png") -4px 0px no-repeat;
         }
         #wrapper .wrapper_content .wei .weixin{
-            background: url("img/weibo.png") -25px 0px no-repeat;
+            background: url("../img/weibo.png") -25px 0px no-repeat;
         }
         /* ********************这是 登陆部分************************ */
 
@@ -378,7 +378,7 @@
         /*.move .move_content .content_center*/ .monve_start img{
             width: 55px;
             height: 11px;
-            background: url("img/start_img.png") 0 0 no-repeat;
+            background: url("../img/start_img.png") 0 0 no-repeat;
             border: none;
         }
        /* .move .move_content .content_center */.monve_start span{
@@ -859,13 +859,13 @@
             margin-bottom: 3px;
         }
         .content_left .app_img0{
-            background: url("img/app_logo.jpg") 0 0 no-repeat;
+            background: url("../img/app_logo.jpg") 0 0 no-repeat;
         }
         .content_left .app_img1{
-            background: url("img/app_logo.jpg") -50px 0 no-repeat;
+            background: url("../img/app_logo.jpg") -50px 0 no-repeat;
         }
         .content_left .app_img2{
-            background: url("img/app_logo.jpg") -100px 0 no-repeat;
+            background: url("../img/app_logo.jpg") -100px 0 no-repeat;
         }
 
         .title_h2{
