@@ -1,17 +1,15 @@
 @charset "UTF-8";
 /* ********************这是 头部************************ */
 #head_nav {
+  position: relative;
   width: 950px;
   height: 90px;
-  margin: 0 auto;
-  position: relative; }
+  margin: 0 auto; }
   #head_nav .head_logo {
+    position: absolute;
     width: 155px;
     height: 34px;
     display: block;
-    /*line-height: 90px;  这个属性是只对 内联元素使用的吗 */
-    /*margin-top: 30px;*/
-    position: absolute;
     left: 0;
     top: 30px;
     background-image: url("../img/logo.png"); }
@@ -28,9 +26,9 @@
       height: 20px;
       padding: 5px; }
     #head_nav .head_search .search_logo {
+      position: absolute;
       width: 20px;
       height: 20px;
-      position: absolute;
       left: 247px;
       top: 5px;
       background-image: url("../img/search_logo.png"); }
@@ -41,10 +39,8 @@
     right: 2px;
     top: 35px; }
     #head_nav .head_banner .head_shu:hover {
-      background: url("../img/head_banner.png") 0px 0px no-repeat; }
+      background: url("../img/head_banner.png") 0 0 no-repeat; }
     #head_nav .head_banner .head_shu {
-      /*     图片    位置 background-position：<position> [ , <position> ]   background-repeat */
-      /* background-position 用长度值指定背景图像填充的位置。可以为负值。*/
       background: url("../img/head_banner.png") 0px 0px no-repeat; }
   #head_nav ul li {
     float: left;

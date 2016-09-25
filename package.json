@@ -18,5 +18,9 @@
   "homepage": "https://github.com/ZengTianShengZ/douban#readme",
   "devDependencies": {
     "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "gulp-sass": "^2.3.2",
+    "gulp.spritesmith": "^6.2.1"
   }
 }

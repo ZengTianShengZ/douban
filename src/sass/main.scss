@@ -1,94 +1,71 @@
 
 /* ********************这是 头部************************ */
 #head_nav{
-
-    width:950px;
-    height:90px;
-
-    margin:0 auto;
     position: relative;
-
-
+    width: 950px;
+    height: 90px;
+    margin: 0 auto;
     .head_logo{
+        position: absolute;
         width: 155px;
         height: 34px;
         display: block;
-        /*line-height: 90px;  这个属性是只对 内联元素使用的吗 */
-        /*margin-top: 30px;*/
-        position: absolute;
-        left:0;
-        top:30px;
+        left: 0;
+        top: 30px;
         background-image: url("../img/logo.png") ;
     }
-
     .head_search{
-
         width: 272px;
         height:32px;
         border:1px solid #c3c3c3;
         position: absolute;
         left:185px;
         top:30px;
-
         input{
             width: 240px;
             font-size: 13px;
             height: 20px;
             padding: 5px;
         }
-
         .search_logo{
+            position: absolute;
             width: 20px;
             height:20px;
-            position: absolute;
             left:247px;
             top:5px;
             background-image: url("../img/search_logo.png") ;
         }
-
     }
-
     .head_banner{
         width: 460px;
         height:21px;
         position: absolute;
         right: 2px;
         top:35px;
-
         .head_shu:hover{
-            background: url("../img/head_banner.png") 0px 0px no-repeat;
+            background: url("../img/head_banner.png") 0 0 no-repeat;
         }
         .head_shu{
-            /*     图片    位置 background-position：<position> [ , <position> ]   background-repeat */
-            /* background-position 用长度值指定背景图像填充的位置。可以为负值。*/
             background: url("../img/head_banner.png") 0px 0px no-repeat;
-
         }
-
     }
-
     ul li{
         float: left;
         margin-right: 17px;
-
         a{
             width: 40px;
             height: 22px;
             display: block;
-
         }
         a.head_move{
-
             background: url("../img/head_banner.png") -62px 0px no-repeat;
         }
-
         a.head_music{
             background: url("../img/head_banner.png") -120px 0px no-repeat;
         }
         a.head_team{
             background: url("../img/head_banner.png") -182px 0px no-repeat;
         }
-
         a.head_tongcheng{
             background: url("../img/head_banner.png") -240px 0px no-repeat;
         }
@@ -101,7 +78,6 @@
         a.head_shiji{
             background: url("../img/head_banner.png") -423px 0px no-repeat;
         }
-
     }
 }
 /* ********************这是 头部************************ */
@@ -111,43 +87,40 @@
 #wrapper{
     height:178px;
     background: url("../img/bgg.png");
-
     .wrapper_content{
         height:178px;
         width:950px;
         margin:0 auto;
         position: relative;
-
         .wrapper_img{
+            position: absolute;
             height:178px;
             width:393px;
-            position: absolute;
-        }
+         }
         .text_1{
-            font-size: 25px;
-            color: #111;
-            font-weight: bold;
             position: absolute;
             left: 430px;
             top:36px;
-
+            font-size: 25px;
+            color: #111;
+            font-weight: bold;
         }
         .text_2 {
-            color: #111;
-            font-size: 12px;
             position: absolute;
             top:70px;
             left: 430px;
+            color: #111;
+            font-size: 12px;
         }
         .download_app{
+            position: absolute;
+            top: 104px;
+            left: 430px;
             display: block;
             width:114px;
             height:28px;
             background: #06C512;
             border-radius: 2px;
-            position: absolute;
-            top: 104px;
-            left: 430px;
             text-align: center;
             line-height: 28px;
             color: #FFF;
@@ -166,7 +139,6 @@
             right:0;
             padding: 0.8px;
         }
-
         .email{
             top:28px;
         }
@@ -186,7 +158,6 @@
         .submit:hover{
             background: #568c5d;
         }
-
         .singin{
             width: 133px;
             height:29px;
@@ -198,7 +169,6 @@
             top:110px;
             right:0;
             line-height: 30px;
-
             border-radius: 2px;
         }
         .singin:hover{
@@ -212,19 +182,16 @@
         ul li{
             float: left;
             margin-right: 12px;
-
             a{
                 width: 14px;
                 height: 14px;
                 display: block;
-
             }
         }
         .wei{
             position: absolute;
             top:152px;
             right:0;
-
             .weibo{
                 background: url("../img/weibo.png") -4px 0px no-repeat;
             }
@@ -240,60 +207,43 @@
 /* ********************热点内容*********************** */
 #hot_content{
     height: 492px;
-
     .hot_content_context{
         height: 420px;
         width: 950px;
-
         margin: 37px auto;
-
         .contect_left{
             height: 420px;
             width: 360px;
-
             float: left;
-
             h2{
                 font: 15px Arial, Helvetica, sans-serif;
                 color: #072;
                 margin: 0 0 12px 0;
                 line-height: 150%;
-
                 span{
                     font-size:10px;
-
                 }
-
             }
-
             ul li{
                 float: left;
                 margin-right: 8px;
                 margin-bottom: 8px;
-
                 a:hover{
                     background: #FFF;
                 }
-
                 p span{
-
                     font-size: 12px;
                     color:#999999 ;
-
                 }
             }
-
         }
         .contect_center{
             height: 420px;
             width: 270px;
-
             float: left;
             margin-left: 17px;
-
             ul li{
                 padding: 10px;
-
                 a{
                     font-size: 12px;
                     line-height: 15px;
@@ -301,36 +251,27 @@
                 b{
                     font-size: 12px;
                     color: #999;
-
                     font-weight :normal;
                     display: block;
                     line-height: 22px;
                 }
                 p{
                     font-size: 14px;
-
                     color: #666;
                 }
-
-
             }
-
-
         }
 
         .contect_right{
             height: 420px;
             width: 268px;
-
             float: left;
             margin-left: 35px;
-
             .contect_right_img:hover{
                 background: #FFF;
             }
             ul li{
                 line-height: 33px;
-
                 .activity a{
                     font-size: 12px;
                 }
@@ -338,13 +279,9 @@
                     font-size: 12px;
                     color: #666;
                 }
-
             }
-
         }
-
     }
-
 }
 /****************************热点内容结束************************************/
 
@@ -353,31 +290,23 @@
     height: 700px ;
     background: #F7F7F7;
     padding: 40px;
-
     a:hover{
-
         background: #F7F7F7;
-
     }
     .move_content{
         width: 907px;
         height: 542px;
         margin: 0 auto;
-
         .content_center{
-
             width: 514px;
             height: 542px;
             float: left;
-
             ul li{
                 width: 100px;
-
                 float: left;
                 margin-left: 13px;
                 margin-right: 13px;
                 margin-bottom: 40px;
-
                 .img_li{
                     width: 100px;
                     height: 140px;
@@ -392,10 +321,8 @@
                 }
                 .monve_title a:hover{
                     color: #FFF;
-
                 }
             }
-
             .piao{
                 display: block;
                 width: 62px;
@@ -411,22 +338,17 @@
                 background: #076dd0;
             }
         }
-
-
     }
     .contect_right{
         width: 235px;
         float: left;
-
         margin-left: 25px;
-
         a{
             font-size: 12px;
         }
         .row li{
             float: left;
             margin-bottom: 5px;
-
             li ul li{
                 float: left;
                 margin-right: 20px;
@@ -437,29 +359,20 @@
             clear: both;
             list-style-type:decimal;
             margin-left: 25px;
-
             li{
 
                 height: 31px;
                 line-height: 31px;
                 border-bottom: 1px dotted   #999;
-
-
             }
-
         }
-
-
     }
-
     .move_hangfu{
         width: 950px;
         height: 90px;
         margin:52px auto;
         display: block;
     }
-
-
 }
 
 /* .move .move_content .content_center*/ .monve_start{
@@ -484,28 +397,21 @@
 #group{
     height: 645px;
     background: #FFF;
-
     a:hover{
-
         background: #FFF;
     }
     .group_content{
         width: 950px;
         height: 646px;
         margin: 37px auto;
-
         .group_centent{
             width: 520px;
-
             float: left;
-
             ul li{
                 width: 240px;
                 height: 50px;
-
                 float: left;
                 margin-bottom: 41px;
-
                 .img_div{
                     float: left;
                     margin-right: 20px;
@@ -514,26 +420,19 @@
                     float: left;
                     p{
                         margin-top: 10px;
-
                     }
                 }
-
             }
         }
-
-
         .group_right{
             width: 249px;
             float: left;
-
             ul li{
                 float: left;
                 margin-right: 14px;
-
                 a{
                     font-size: 12px;
                 }
-
                 .cate_lable{
                     width: 249px;
                     margin-bottom: 5px;
@@ -542,19 +441,12 @@
                         color: #333;
                     }
                     a:hover{
-
                         color: #FFF;
                     }
                 }
-
-
             }
         }
     }
-
-
-
-
 }
 
 /****************小组区结束****************/
@@ -564,12 +456,10 @@
     height: 700px;
     background: #f7f7f7;
     border: 1px solid #f7f7f7;
-
     .reading_content{
         width: 950px;
         margin: 38px auto;
         border: 1px solid #f7f7f7;
-
         a{
             color:  #614e3c;
         }
@@ -578,16 +468,12 @@
         }
         .reading_center{
             width: 560px;
-
             float: left;
-
             ul{
                 margin-left: 15px;
-
                 li{
                     width: 100px;
                     float: left;
-
                     margin-right: 33px;
                     p {
                         text-align: center;
@@ -600,7 +486,6 @@
                     }
                     .book_img:hover{
                         background: #f7f7f7;
-
                     }
                     .mian_red{
                         display: block;
@@ -616,28 +501,21 @@
                     .mian_red:hover{
                         background: #7b7c77;
                     }
-
                 }
             }
-
-
         }
-
         .redding_right{
             float: left;
             width: 255px;
-
             ul{
                 width: 264px;
                 height: 55px;
                 border-bottom: 1px solid #999999;
                 margin-top: 15px;
-
                 li{
                     float: left;
                     margin-right: 10px;
                     line-height: 20px;
-
                     a{
                         font-size: 12px;
                     }
@@ -645,14 +523,10 @@
 
                         color: #999999;
                     }
-
                 }
             }
         }
-
     }
-
-
 }
 
 
@@ -668,30 +542,23 @@
     }
     a:hover{
         color: #FFF;
-
     }
     .music_content{
         width: 950px;
         margin:43px auto;
-
         .music_center{
             width: 540px;
-
             float: left;
-
             ul li{
                 width: 124px;
-
                 float: left;
                 margin-right: 8px;
                 margin-bottom: 49px;
-
                 .img_a{
                     display: block;
                     width: 80px;
                     height: 80px;
                     margin: 0 auto;
-
                 }
                 p{
                     text-align: center;
@@ -703,22 +570,15 @@
                     text-align: center;
                     margin-top: 19px;
                 }
-
             }
-
-
         }
-
         .music_reght{
             width: 222px;
-
             float: left;
-
             ul{
                 list-style-type:decimal;
                 border: 1px solid #FFF;
                 margin-left: 30px;
-
                 li{
                     height: 73px;
                     width: 190px;
@@ -733,17 +593,10 @@
                         float: left;
                         margin-left: 20px;
                     }
-
                 }
             }
-
-
         }
-
-
     }
-
-
 }
 /**************** Music  结束 ****************/
 
@@ -762,25 +615,19 @@
     }
     .city_content{
         width: 950px;
-
         position: absolute;
         margin: 37px 200px 0;
-
         .city_center{
             width: 590px;
-
             float: left;
-
             .img_div_a:hover{
                 background: #F7F7F7;
-
             }
             ul li{
                 float: left;
                 margin-right: 30px;
                 margin-bottom: 45px;
                 width: 260px;
-
             }
             .img_div{
                 float: left;
@@ -797,18 +644,12 @@
                     color: #666666;
                 }
             }
-
-
         }
-
         .city_right{
             width:230px;
-
             float: left;
-
             .c_a_tag{
                 padding-bottom: 50px;
-
                 .t_t{
                     color: #000;
                     margin-right: 200px;
@@ -822,14 +663,9 @@
                         font-size: 12px;
                     }
                 }
-
             }
-
         }
-
-
     }
-
 }
 /**************** 同城  结束 ****************/
 
@@ -839,19 +675,15 @@
     height: 270px;
     background: #FFF;
     .ad_hangfu:hover {
-
         background: #FFF;
-
     }
     .ad_center{
         width: 950px;
         margin: 0 auto;
-
         .ad_hengfu{
             height: 90px;
             margin: 30px 0;
             border-bottom:1px dotted #dcdcdc;
-
         }
         .ad_letf{
             width: 460px;
@@ -873,7 +705,6 @@
             .ad_zg{
                 width: 13px;
                 height: 13px;
-
                 vertical-align: middle;
                 border: 0;
             }
@@ -881,24 +712,16 @@
                 font-size: 12px;
             }
         }
-
         .ad_right{
             width: 440px;
             float: right;
-
             font-size: 12px;
             color: #999999;
-
             a{
                 font-size: 12px;
-
             }
         }
-
-
     }
-
-
 }
 /**************** 最后部分 广告区  结束 ****************/
 
@@ -906,27 +729,21 @@
 /****************公用部分******************/
 /* .move .move_content*/
 .content_left{
-
     width: 123px;
-
     float: left;
-
     h2 a{
         font-size: 24px;
         padding:6px;
     }
     ul li{
         padding: 5px;
-
     }
-
     .app_img{
         width: 50px;
         height: 50px;
         display: block;
         border-radius: 4px;
         box-shadow:1px 0px rgba(97, 95, 38, 0.16);
-
         margin-bottom: 3px;
     }
     .app_img0{
@@ -938,8 +755,6 @@
     .app_img2{
         background: url("../img/app_logo.jpg") -100px 0 no-repeat;
     }
-
-
 }
 .title_h2{
     font: 15px Arial, Helvetica, sans-serif;
