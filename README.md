@@ -5,8 +5,8 @@
 ### Quick Start
 
 ```
-npm install  
-gulp sass
+$npm install  
+$gulp sass
 ```
 
 ## Browser Support
